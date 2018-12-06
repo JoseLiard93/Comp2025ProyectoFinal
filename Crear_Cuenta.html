@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<body>
+
+<h3>Creating an Account</h3>
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname">First Name*</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name*</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="org">Organization</label>
+    <input type="text" id="org" name="organization" placeholder="Organization..">
+
+    <label for="email">E-Mail*</label>
+    <input type="text" id="email" name="email" placeholder="Your e-mail..">
+
+    <label for="phone">Work Phone</label>
+    <input type="text" id="phone" name="workphone" placeholder="Work Phone..">
+
+    <label for="phone">Home Phone</label>
+    <input type="text" id="phone" name="homephone" placeholder="Home Phone..">
+
+    <label for="phone">Cellphone</label>
+    <input type="text" id="phone" name="cellphone" placeholder="Cellphone..">
+
+    <label for="place">Adddress 1</label>
+    <input type="text" id="place" name="address" placeholder="Address 1..">
+
+    <label for="place">Address 2</label>
+    <input type="text" id="place" name="address" placeholder="Address 2..">
+
+    <label for="city">City*</label>
+    <input type="text" id="city" name="city" placeholder="Your City..">
+
+    <label for="state">State/Providence</label>
+    <input type="text" id="state" name="state/providence" placeholder="Your State or Providence..">
+
+    <label for="zip">Zip Code/Postal Code</label>
+    <input type="text" id="zip" name="zipcode" placeholder="Your Zip or Postal Code..">
+
+    <label for="country">Country*</label>
+    <input type="text" id="country" name="country" placeholder="Your Country..">    
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
